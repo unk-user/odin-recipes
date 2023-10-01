@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(rgba(84, 42, 162, 0.99), rgba(164, 122, 242, 0.99)), url(ressources/background.jpg);
+}
+h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10vh
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(ressources/RobotoSlab-VariableFont_wght.ttf);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    color: #F5F5F5;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.main > img {
+    height: 45vh;
+    opacity: 0.7;
+    align-self: center;
+}
+.ingredients {
+    width: 300px;
+}
+.Directions {
+ width: 400px;
+}
